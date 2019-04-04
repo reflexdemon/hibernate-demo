@@ -1,6 +1,9 @@
 package io.vpv.hibernatedemo.model;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,10 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
-@EqualsAndHashCode
 @ToString
 @Entity
 @Table(name = "department")
