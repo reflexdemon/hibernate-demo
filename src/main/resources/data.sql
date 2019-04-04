@@ -22,15 +22,24 @@ create table employee (
 	gender VARCHAR(50),
 	department_id VARCHAR(1)
 );
-insert into employee (id, first_name, last_name, email, gender, department_id) values (1, 'Maynord', 'Etock', 'metock0@amazonaws.com', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (2, 'Jackqueline', 'Ruck', 'jruck1@shutterfly.com', 'Female', 3);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (3, 'Sherye', 'Petche', 'spetche2@marriott.com', 'Female', 6);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (4, 'Brigham', 'Glason', 'bglason3@spotify.com', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (5, 'Francis', 'Deeny', 'fdeeny4@joomla.org', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (6, 'Merna', 'Campey', 'mcampey5@about.com', 'Female', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (7, 'Frank', 'Attock', 'fattock6@economist.com', 'Female', 3);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (8, 'Gillian', 'Attkins', 'gattkins7@wisc.edu', 'Female', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (9, 'Dorey', 'Budgey', 'dbudgey8@usnews.com', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (1, 'Maynord', 'Smith', 'metock0@amazonaws.com', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (2, 'Jackqueline', 'Smith', 'jruck1@shutterfly.com', 'Female', 3);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (3, 'Sherye', 'Smith', 'spetche2@marriott.com', 'Female', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (4, 'Brigham', 'Smith', 'bglason3@spotify.com', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (5, 'Francis', 'Smith', 'fdeeny4@joomla.org', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (6, 'Merna', 'Smith', 'mcampey5@about.com', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (7, 'Frank', 'Smith', 'fattock6@economist.com', 'Female', 3);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (8, 'Gillian', 'Smith', 'gattkins7@wisc.edu', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (9, 'Dorey', 'Smith', 'dbudgey8@usnews.com', 'Female', 4);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (10, 'Isidor', 'Stedmond', 'istedmond9@ucsd.edu', 'Male', 1);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (11, 'Amalle', 'Nairy', 'anairya@vkontakte.ru', 'Female', 5);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (12, 'Wilfred', 'Berzin', 'wberzinb@auda.org.au', 'Male', 6);
@@ -41,17 +50,28 @@ insert into employee (id, first_name, last_name, email, gender, department_id) v
 insert into employee (id, first_name, last_name, email, gender, department_id) values (17, 'Anabel', 'Hincham', 'ahinchamg@studiopress.com', 'Female', 4);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (18, 'Geraldine', 'Vann', 'gvannh@google.fr', 'Female', 5);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (19, 'Trix', 'Mawhinney', 'tmawhinneyi@ocn.ne.jp', 'Female', 1);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (20, 'Trumaine', 'Coverdill', 'tcoverdillj@networksolutions.com', 'Male', 6);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (21, 'Zachery', 'Shapcott', 'zshapcottk@cbslocal.com', 'Male', 6);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (22, 'Rogerio', 'Wooff', 'rwooffl@wordpress.com', 'Male', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (23, 'Lavena', 'Ayliff', 'layliffm@ow.ly', 'Female', 6);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (24, 'Emelina', 'Strank', 'estrankn@csmonitor.com', 'Female', 1);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (25, 'Melita', 'Eagleston', 'meaglestono@parallels.com', 'Female', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (26, 'Sue', 'Matthews', 'smatthewsp@reverbnation.com', 'Female', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (27, 'Nikkie', 'Kerwood', 'nkerwoodq@tmall.com', 'Female', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (28, 'Goran', 'Considine', 'gconsidiner@yale.edu', 'Male', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (29, 'Neel', 'Dybbe', 'ndybbes@sciencedirect.com', 'Male', 3);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (30, 'Dion', 'Francisco', 'dfranciscot@shutterfly.com', 'Male', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (20, 'Trumaine', 'Duke', 'tcoverdillj@networksolutions.com', 'Male', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (21, 'Zachery', 'Duke', 'zshapcottk@cbslocal.com', 'Male', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (22, 'Rogerio', 'Duke', 'rwooffl@wordpress.com', 'Male', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (23, 'Lavena', 'Duke', 'layliffm@ow.ly', 'Female', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (24, 'Emelina', 'Duke', 'estrankn@csmonitor.com', 'Female', 1);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (25, 'Melita', 'Duke', 'meaglestono@parallels.com', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (26, 'Sue', 'Duke', 'smatthewsp@reverbnation.com', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (27, 'Nikkie', 'Duke', 'nkerwoodq@tmall.com', 'Female', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (28, 'Goran', 'Duke', 'gconsidiner@yale.edu', 'Male', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (29, 'Neel', 'Duke', 'ndybbes@sciencedirect.com', 'Male', 3);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (30, 'Dion', 'Duke', 'dfranciscot@shutterfly.com', 'Male', 6);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (31, 'Kasper', 'Hannam', 'khannamu@privacy.gov.au', 'Male', 4);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (32, 'Andrus', 'Libbie', 'alibbiev@lycos.com', 'Male', 1);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (33, 'Darla', 'Adney', 'dadneyw@bigcartel.com', 'Female', 5);
@@ -71,17 +91,28 @@ insert into employee (id, first_name, last_name, email, gender, department_id) v
 insert into employee (id, first_name, last_name, email, gender, department_id) values (47, 'Shurwood', 'Stelljes', 'sstelljes1a@stanford.edu', 'Male', 6);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (48, 'Jeddy', 'Raphael', 'jraphael1b@eventbrite.com', 'Male', 1);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (49, 'Stephannie', 'Dewhirst', 'sdewhirst1c@istockphoto.com', 'Female', 2);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (50, 'Euell', 'Crinson', 'ecrinson1d@un.org', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (51, 'Julianna', 'Ballach', 'jballach1e@state.tx.us', 'Female', 2);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (52, 'Hercules', 'Brothwood', 'hbrothwood1f@tinypic.com', 'Male', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (53, 'Pryce', 'Fogg', 'pfogg1g@studiopress.com', 'Male', 3);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (54, 'Andie', 'Rudd', 'arudd1h@cloudflare.com', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (55, 'Ignacius', 'Callaby', 'icallaby1i@google.de', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (56, 'Bryn', 'Idwal Evans', 'bidwalevans1j@nymag.com', 'Male', 5);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (57, 'Jacquelin', 'Galsworthy', 'jgalsworthy1k@un.org', 'Female', 2);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (58, 'Templeton', 'Stannion', 'tstannion1l@tumblr.com', 'Male', 6);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (59, 'Mark', 'Corter', 'mcorter1m@reverbnation.com', 'Male', 4);
-insert into employee (id, first_name, last_name, email, gender, department_id) values (60, 'Rudie', 'Starbucke', 'rstarbucke1n@columbia.edu', 'Male', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (50, 'Euell', 'Gates', 'ecrinson1d@un.org', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (51, 'Julianna', 'Gates', 'jballach1e@state.tx.us', 'Female', 2);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (52, 'Hercules', 'Gates', 'hbrothwood1f@tinypic.com', 'Male', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (53, 'Pryce', 'Gates', 'pfogg1g@studiopress.com', 'Male', 3);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (54, 'Andie', 'Gates', 'arudd1h@cloudflare.com', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (55, 'Ignacius', 'Gates', 'icallaby1i@google.de', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (56, 'Bryn', 'Gates', 'bidwalevans1j@nymag.com', 'Male', 5);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (57, 'Jacquelin', 'Gates', 'jgalsworthy1k@un.org', 'Female', 2);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (58, 'Templeton', 'Gates', 'tstannion1l@tumblr.com', 'Male', 6);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (59, 'Mark', 'Gates', 'mcorter1m@reverbnation.com', 'Male', 4);
+insert into employee (id, first_name, last_name, email, gender, department_id)
+values (60, 'Rudie', 'Gates', 'rstarbucke1n@columbia.edu', 'Male', 6);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (61, 'Harwilll', 'Tremblet', 'htremblet1o@hibu.com', 'Male', 1);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (62, 'Calley', 'Margrie', 'cmargrie1p@geocities.jp', 'Female', 4);
 insert into employee (id, first_name, last_name, email, gender, department_id) values (63, 'Rickard', 'Speedy', 'rspeedy1q@yahoo.co.jp', 'Male', 1);
